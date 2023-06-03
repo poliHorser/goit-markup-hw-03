@@ -105,6 +105,11 @@ ul{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    position: absolute;
+        width: 496px;
+        height: 120px;
+        padding-left: 472px;
+        padding-top: 260px;
 }
 
 .hero-buton{

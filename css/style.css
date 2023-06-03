@@ -22,6 +22,15 @@ body {
 .link {
     text-decoration: none;
 }
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+    display: flex;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -105,11 +114,7 @@ ul{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    position: absolute;
-        width: 496px;
-        height: 120px;
-        padding-left: 472px;
-        padding-top: 260px;
+   
 }
 
 .hero-buton{
@@ -122,11 +127,7 @@ ul{
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     line-height: 1.5;
-    display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
+    
 }
 
 .hero-buton:hover, .hero-buton:focus {

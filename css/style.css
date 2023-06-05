@@ -9,6 +9,7 @@ head{
 
 :root{
     --title-color: #2E2F42;
+    --back-but: #4D5AE5;
 }
 
 p, h1,h2,h3,h4,h5,h6 {
@@ -127,6 +128,9 @@ ul{
 
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
+
+
 }
 
 .hero-title{
@@ -136,12 +140,13 @@ ul{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
    
 }
 
 .hero-buton{
     font-family: "Roboto", sans-serif;
-    background-color: #4D5AE5;
+    background-color: var(--back-but);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
@@ -149,7 +154,12 @@ ul{
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     line-height: 1.5;
-    
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .hero-buton:hover, .hero-buton:focus {

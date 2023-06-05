@@ -3,6 +3,10 @@ head{
 }
 
 
+.img {
+    display: block;
+}
+
 :root{
     --title-color: #2E2F42;
 }

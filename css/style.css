@@ -167,8 +167,17 @@ ul{
 }
 
 
+.section-two{
+    padding: 120px 0;
+
+}
 
 
+.section-two-list{
+    display: flex;
+    gap: 24px;
+
+}
 
 .main-secondtitle {
     font-weight: 500;
@@ -176,6 +185,9 @@ ul{
     letter-spacing: 0.02em;
     color:var(--title-color);
     line-height: 1.2;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+    
 }
 .main-second-content {
     font-weight: 400;

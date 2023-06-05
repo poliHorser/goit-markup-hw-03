@@ -185,9 +185,9 @@ ul{
     letter-spacing: 0.02em;
     color:var(--title-color);
     line-height: 1.2;
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
     margin-bottom: 8px;
-    
+
 }
 .main-second-content {
     font-weight: 400;
